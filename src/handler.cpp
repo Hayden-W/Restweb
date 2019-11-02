@@ -43,7 +43,7 @@ void handler::handle_get(http_request message)
 	//Dbms* d  = new Dbms();
     //d->connect();
 
-      concurrency::streams::fstream::open_istream(U("static/index.html"), std::ios::in).then([=](concurrency::streams::istream is)
+    concurrency::streams::fstream::open_istream(U("static/index.html"), std::ios::in).then([=](concurrency::streams::istream is)
     {
         message.reply(status_codes::OK, is,  U("text/html"))
 		.then([](pplx::task<void> t)
@@ -66,7 +66,6 @@ void handler::handle_get(http_request message)
 	});
 
     return;
-
 };
 
 //

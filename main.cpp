@@ -25,7 +25,7 @@ void on_initialize(const string_t& address)
      g_httpHandler = std::unique_ptr<handler>(new handler(addr));
      g_httpHandler->open().wait();
 
-    ucout << utility::string_t(U("Listening for requests at: ")) << addr << std::endl;
+    ucout << utility::string_t(U("Hi, Now listening for requests at: ")) << addr << std::endl;
 
     return;
 }

@@ -16,7 +16,7 @@ add_executable(restserver
   src/handler.cpp
   )
 
-set(Casablanca_LIBRARIES "-lboost_system -lcrypto -lssl -lcpprest")
+set(Casablanca_LIBRARIES "-lboost_system -lcrypto -lssl -lcpprest -lpthread")
 if(DBMS)
 	set(NEW_DB_SRC_DIR ${CMAKE_SOURCE_DIR}/dbms/src)
 	add_library(dbms SHARED

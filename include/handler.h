@@ -1,7 +1,7 @@
 #ifndef HANDLER_H
 #define HANDLER_H
 #include <iostream>
-#include "stdafx.h"
+#include "./stdafx.h"
 //#include "../dbms/include/Dbms.h"
 
 using namespace std;
