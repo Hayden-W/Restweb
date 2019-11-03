@@ -39,6 +39,13 @@ void handler::handle_get(http_request message)
 
     auto paths = http::uri::split_path(http::uri::decode(message.relative_uri().path()));
 
+    auto response = json::value::object();
+
+    response["msg"] = json::value::string("Hello from the server!");
+
+    message.reply(status_codes::OK, response);
+    /*
+
     message.relative_uri().path();
 	//Dbms* d  = new Dbms();
     //d->connect();
@@ -64,7 +71,7 @@ void handler::handle_get(http_request message)
 			message.reply(status_codes::InternalError,U("INTERNAL ERROR "));
 		}
 	});
-
+    */
     return;
 };
 
