@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/hayden/dev/restweb/build",
+  "command": "/usr/bin/c++   -I../  -g   -Wno-sign-compare -Wno-enum-compare -std=gnu++11 -o CMakeFiles/restserver.dir/main.cpp.o -c /home/hayden/dev/restweb/main.cpp",
+  "file": "/home/hayden/dev/restweb/main.cpp"
+},
+
+{
+  "directory": "/home/hayden/dev/restweb/build",
+  "command": "/usr/bin/c++   -I../  -g   -Wno-sign-compare -Wno-enum-compare -std=gnu++11 -o CMakeFiles/restserver.dir/src/handler.cpp.o -c /home/hayden/dev/restweb/src/handler.cpp",
+  "file": "/home/hayden/dev/restweb/src/handler.cpp"
+}
+]

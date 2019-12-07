@@ -1,0 +1,8 @@
+# ninja log v5
+0	2286	1575720477	CMakeFiles/restserver.dir/main.cpp.o	30e3efebf0f1d00b
+1	3590	1575720478	CMakeFiles/restserver.dir/src/handler.cpp.o	ca3de26762525113
+3590	3786	1575720478	../Build/bin/restserver	5beed9baab413082
+2	2154	1575721222	CMakeFiles/restserver.dir/main.cpp.o	30e3efebf0f1d00b
+2154	2353	1575721222	../Build/bin/restserver	5beed9baab413082
+2	2109	1575721246	CMakeFiles/restserver.dir/main.cpp.o	30e3efebf0f1d00b
+2109	2301	1575721246	../Build/bin/restserver	5beed9baab413082
